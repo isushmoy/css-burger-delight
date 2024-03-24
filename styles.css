@@ -1,0 +1,128 @@
+.stick{
+    height: 4rem;
+    width: 0.7rem;
+    background-color: #474747;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.top-bun{
+    width: 22rem;
+    height: 7rem;
+    background-color: #f9a96e; /* f8be38 */
+    border-radius: 6rem 7rem 1rem 1rem;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.3) inset; /* Horizontal offset, Vertical offset, Blur radius, Spread radius, Color */
+    background-image: linear-gradient(45deg, #f9a96e, #ffc176);
+}
+
+.seed0{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #b78f3b;
+    border-radius: 50%;
+    position: relative;
+    top: 1.5rem;
+    left: 17rem;
+}
+
+.seed1{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #b78f3b;
+    border-radius: 50%;
+    position: relative;
+    top: 2.5rem;
+    left: 12rem;
+}
+
+.seed2{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #b78f3b;
+    border-radius: 50%;
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+}
+
+.lettuce{
+    width: 23rem;
+    height: 1.5rem;
+    background-color: #99b839;
+    border-radius: 1rem 1rem 2rem 2rem;
+    box-shadow: -1px -1px 10px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.tomato{
+    width: 22rem;
+    height: 1rem;
+    background-color: #d9534f;
+    border-radius: 1rem;
+    box-shadow: -1px -1px 10px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.onion{
+    width: 21rem;
+    height: 0.7rem;
+    background-color: #8c6bdc;
+    border-radius: 1rem;
+    box-shadow: -1px -1px 10px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.cheese {
+    width: 21rem;
+    height: 1.2rem;
+    background-color: #f8be38;
+    border-radius: 7rem 7rem 1rem 1rem;
+    box-shadow: -1px -1px 10px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+.patty{
+    width: 23rem;
+    height: 3rem;
+    background-color: #663c16;
+    border-radius: 2rem 2rem 1rem 1rem;
+    position: relative;
+    box-shadow: -1px -1px 10px 10px rgba(0, 0, 0, 0.3) inset;
+    background-image: linear-gradient(45deg, #8B4513, #A0522D);
+}
+
+.bot-bun{
+    width: 22rem;
+    height: 5rem;
+    background-color: #f9a96e;
+    border-radius: 1rem 1rem 6rem 7rem;
+    box-shadow: -5px -5px 20px 10px rgba(0, 0, 0, 0.3) inset;
+    background-image: linear-gradient(45deg, #f9a96e, #ffc176);
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.stick, .top-bun, .seed0, .seed1, .seed2, .lettuce, .tomato, .onion, .cheese, .patty, .bot-bun {
+    outline: 0.15rem solid #663c16;
+}
+
+body {
+    background-color: #8c6bdc;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+a {
+  text-decoration: none;
+  color: hsl(259, 100%, 45%, 1);;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+a:hover {
+    background-color: hsl(259, 100%, 65%, 1);
+  }
