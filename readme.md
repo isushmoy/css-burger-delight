@@ -26,7 +26,7 @@ The CSS Burger Delight project is a CSS art representation of a delicious burger
 
 ## Links
 
-[CSS Art challenge 🎨](https://dev.to/sushcod3/css-burger-delight-4k3n)
+[CSS Art challenge 🎨](https://dev.to/sushmoy/css-burger-delight-4k3n)
 
 ## Technologies Used
 
